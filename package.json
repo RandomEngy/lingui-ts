@@ -26,7 +26,7 @@
         "pt-br"
     ],
     "sourceLocale": "en",
-    "extractors": ["typescript"],
+    "extractors": ["@lingui/cli/api/extractors/typescript"],
     "catalogs": [
         {
             "path": "<rootDir>/locale/{locale}/messages",
