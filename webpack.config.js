@@ -1,13 +1,20 @@
+var path = require('path');
+
 module.exports = {
+  entry: './src/index',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js'
+  },
   resolve: {
     extensions: [".ts", ".js"],
   },
   module: {
-    rules: [
-      {
-        test: /\.ts$/i,
-        use: ["ts-loader"],
-      },
-    ],
-  },
+    rules: [{
+        // Include ts, tsx, js, and jsx files.
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+    }],
+}
 };

@@ -13,6 +13,7 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/index.ts:3
+#: lib/index.js:14
+#: src/index.ts:11
 msgid "Hello world!"
 msgstr "Olá Mundo!"

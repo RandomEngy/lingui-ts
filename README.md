@@ -1,2 +1,2 @@
-# webpack-ts
-Minimal configuration to build typescript with webpack
+# lingui-ts
+Minimal project with lingui, Typescript, Babel and Webpack
